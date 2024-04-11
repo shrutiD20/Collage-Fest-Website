@@ -1,0 +1,32 @@
+.special-word {
+    font-size: 100px; /* Adjust the font size as needed */
+    font-family: 'Poppins', sans-serif; /* Apply an attractive font */
+    font-weight: bold; /* Make the words bold */
+    color: #f07167; /* Change the color to an attractive one */
+}
+
+.video-container {
+    position: relative;
+    width: 24%; /* Adjust width as needed */
+    margin-left: 20px; /* Center the video horizontally */
+}
+
+video {
+    width: 100%; /* Make the video responsive */
+   
+
+}
+
+.videos{
+    display: flex;
+    justify-content: space-evenly;
+}
+.image{
+    height: auto;
+    width: 100%;
+}
+
+/* Example adjustments */
+
+
+

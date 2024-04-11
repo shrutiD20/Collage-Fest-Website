@@ -1,0 +1,114 @@
+.navBar{
+    text-align: center;
+    background-color: rgb(255, 250, 245);
+    /* padding-left: 0px;
+    padding-right: 0px; */
+    width: 100%;
+    line-height: 15px;
+    
+}
+
+.header{
+    display: flex;
+    align-items: center; 
+    position: relative; 
+}
+
+ .logo {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    z-index: 1;
+    /* margin-top: 5px; */
+} 
+
+.logo img {
+    width: 140px; /* Increase image size */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.naac {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px; /* Adjust as needed */
+}
+
+h1{
+    color: rgb(45, 45, 160);
+    font-family: 'Poppins', sans-serif;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 b{
+    color:red;
+}
+
+.special-word {
+    font-size: 50px; /* Adjust the font size as needed */
+    font-family: 'Poppins', sans-serif; /* Apply an attractive font */
+    font-weight: bold; /* Make the words bold */
+    color: #99582a; /* Change the color to an attractive one */
+}
+
+.hero_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url('hero_image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 800px; 
+    position: relative;
+}   
+/* .hero_section h1 {
+    text-align: center;
+    color:darkgoldenrod;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}     */
+
+.hero_content1{
+    background-color:  rgb(254, 237, 216);
+    font-family:  'Poppins', sans-serif;
+    line-height: 1.5rem;
+    padding: 40px 10px 40px 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1.2);
+
+}
+
+.hero_content1:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 1.2);
+    color: #780000; 
+}
+
+.hero_content1 img{
+    height:auto;
+    width: 550px;
+}
+
+.hero_content2{
+    background-color: rgb(254, 237, 216);
+    font-family: 'Poppins', sans-serif; /* Changed font to Poppins */
+    line-height: 1.5rem;
+    padding: 30px 10px 30px 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease; /* Added color transition */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 1.2);
+}
+
+.hero_content2:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 1.2);
+    color:  #780000;
+}
+
+.hero_content2 img{
+    height:auto;
+    width: 600px;
+}
